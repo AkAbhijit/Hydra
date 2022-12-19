@@ -7,5 +7,4 @@
 # Join [Support Server](https://discord.gg/UaMcC4PrYH) For Pre Access
 
 
-# Tutorial Link - [CLick here](https://www.youtube.com/watch?v=u8NFXJE0lPg
-)
+# Tutorial Link -[CLick here](https://www.youtube.com/watch?v=u8NFXJE0lPg)

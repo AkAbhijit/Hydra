@@ -1,12 +1,12 @@
 <center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hydra&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 <br>
 <br />
-<p align="center">
+
 [![Run on Repl.it](https://replit.com/badge/github/akabhijit/hydra)](https://repl.it/github/akabhijit/hydra)
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/akabhijit/hydra)
 
  ![Forks](https://img.shields.io/github/forks/akabhijit/hydra?style=social) ![Stargazers](https://img.shields.io/github/stars/akabhijit/hydra?style=social)  ![License](https://img.shields.io/github/license/akabhijit/hydra)
-</p>
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">

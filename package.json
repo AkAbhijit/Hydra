@@ -1,0 +1,28 @@
+{
+  "name": "hydra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Src/Shard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkAbhijit/Hydra.git"
+  },
+  "keywords": [],
+  "author": "AkAbhijit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AkAbhijit/Hydra/issues"
+  },
+  "homepage": "https://github.com/AkAbhijit/Hydra#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "kazagumo": "^2.3.0",
+    "kazagumo-spotify": "^1.1.5",
+    "mongoose": "^6.6.5",
+    "shoukaku": "^3.2.0",
+    "undici": "^5.13.0"
+  }
+}

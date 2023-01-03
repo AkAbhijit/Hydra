@@ -21,9 +21,9 @@ module.exports = {
     Owners: ["588659781930188811", "783967882785718313"], // owners in array
     Nodes: [
         {
-            name: 'Local',
-            url: 'localhost:2333', //  Node
-            auth: 'saavanontop',
+            name: 'Local', // Node Name
+            url: 'localhost:2333', //  Node Ip And : Port
+            auth: 'saavanontop', // Node Password
             secure: false
         }
     ],

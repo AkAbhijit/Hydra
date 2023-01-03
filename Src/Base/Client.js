@@ -131,7 +131,7 @@ class Savaan extends Client {
     async connect() {
         super.login(this.token);
         this._loadPlayer();
-        ["Button", "Slash", "Message", "Events"].forEach((files) => { require(`../Scripts/${files}`)(this) });
+        ["Button", "Message", "Events"].forEach((files) => { require(`../Scripts/${files}`)(this) });
     }
 }
 module.exports = { Savaan };

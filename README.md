@@ -5,7 +5,7 @@
 [![Run on Repl.it](https://replit.com/badge/github/akabhijit/hydra)](https://repl.it/github/akabhijit/hydra)
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/akabhijit/hydra)
 
- ![Forks](https://img.shields.io/github/forks/akabhijit/hydra?style=social) ![Stargazers](https://img.shields.io/github/stars/akabhijit/hydra?style=social)  ![License](https://img.shields.io/github/license/akabhijit/hydra)
+ ![Contributors](https://img.shields.io/github/contributors/akabhijit/hydra?color=dark-green) ![Forks](https://img.shields.io/github/forks/akabhijit/hydra?style=social) ![Stargazers](https://img.shields.io/github/stars/akabhijit/hydra?style=social)  ![License](https://img.shields.io/github/license/akabhijit/hydra)
 
 <!-- PROJECT LOGO -->
 <br />

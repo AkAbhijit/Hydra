@@ -28,7 +28,6 @@ module.exports = new Object({
 
     async execute(client, message, args, prefix, color, dispatcher) {
         const { title, uri, length, requester, isStream, thumbnail, author } = dispatcher.queue.current;
-        const track = dispatcher.queue.current;
         const parsedCurrentDuration = client.util.duration(dispatcher.shoukaku.position || 0);
         const parsedDuration = client.util.duration(length);
         const part = Math.floor((dispatcher.shoukaku.position / length) * 13);
@@ -56,7 +55,7 @@ module.exports = new Object({
                     inline: false,
                 },
             )
-            .setFooter({ text: `Playing from ${track.sourceName}`, iconURL: client.config.links.spotify })
+            .setTimestamp()
         return message.reply({ embeds: [embed] });
 
     }

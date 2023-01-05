@@ -50,4 +50,9 @@ module.exports = class Spotify {
         return await this.makeRequest(`recommendations?seed_artists=${seed_artists}&seed_tracks=${seed_tracks}&limit=${limit}`);
     }
   
+    async search(query) {
+        if (Date.now() >= this.nextRefresh) await this.refresh();
+        const data = await this.makeRequest(`search?q=${decodeURIComponent(query)}&limit=1&type=track`);
+        return data.tracks.items[0].external_urls.spotify;
+    }
 }

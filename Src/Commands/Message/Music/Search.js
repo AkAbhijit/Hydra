@@ -88,7 +88,7 @@ module.exports = new Object({
                             dispatcher.queue.add(toAdd);
                             await client.util.update(dispatcher, client)
                             if (!dispatcher.playing && !dispatcher.paused) dispatcher.play();
-                            if (message) await message.edit({ embeds: [client.embed().setColor(color).setDescription(`${client.emoji.tick} Added ${count === 1 ? `\`${tracks[message.values[0]].title.length > 50 ? tracks[message.values[0]].title.substring(0, 50) + '...' : tracks[message.values[0]].title}\` to the queue` : `\`[ ${count} ]\` tracks to the queue.`}`)], components: [] });
+                            if (message) await message.edit({ embeds: [client.embed().setColor(color).setDescription(`${client.emoji.tick} Added \`[ ${count} ]\` tracks to the queue.`)], components: [] });
                         });
                         selectMenuCollector.on('end', async () => {
                             if (message) await message.edit({ embeds: [client.embed().setDescription(`${client.emoji.cross} Time's up.`).setColor(color)], components: [] });

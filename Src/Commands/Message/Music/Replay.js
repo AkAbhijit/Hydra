@@ -13,7 +13,7 @@ module.exports = new Object({
         user: [],
         dev: false,
     },
-    player: { voice: true, active: true, dj: true,  },
+    player: { voice: true, active: true, dj: true, },
 
     /**
      * 
@@ -26,7 +26,7 @@ module.exports = new Object({
      */
 
     async execute(client, message, args, prefix, color, dispatcher) {
-        const { tracks } = await dispatcher.search(dispatcher.queue.current.title, { requester: message.author })
+        const { tracks } = await dispatcher.search(dispatcher.queue.current.title, { requester: message.author, engine: 'spotify' })
         dispatcher.queue.add(tracks[0])
         dispatcher.skip()
         await client.util.update(dispatcher, client);

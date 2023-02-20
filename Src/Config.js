@@ -1,9 +1,9 @@
 const { ButtonStyle } = require("discord.js");
 module.exports = {
-    Token: "",// enter your token
-    Prefix: ".", // prefix here
+    Token: "MTA3MjE4OTM2NzI0Nzk2NjIxOQ.GaKXXV.04gDhU9IFsiaXxxap_X_mxM48WCV2d7QH0HArw",// enter your token
+    Prefix: "+", // prefix here
     Client: {
-        ID: "1037419356918919289", // client id
+        ID: "1072189367247966219", // client id
     },
     button: {
         "grey": ButtonStyle.Secondary,
@@ -13,30 +13,30 @@ module.exports = {
         "green": ButtonStyle.Success
     },
     spotify: {
-        ID: "10ad0eec3bd045b1977c88cee647c5e3", // spotify client id
-        Secret: "6f9b00b137324f188673a651c1633f1b", // spotify client secret
+        ID: "731ac5bf0603411f80ac446f5c02e290", // spotify client id
+        Secret: "cd16a34c385b4fa5915abd596fd4e480", // spotify client secret
     },
     MongoData: "mongodb+srv://Saavan:6969@saavan.mzc7ria.mongodb.net/Beta",// monngo db
-    EmbedColor: "#C04BF7", // embed color
-    Owners: ["588659781930188811", "783967882785718313"], // owners in array
+    EmbedColor: "#000000", // embed color
+    Owners: ["777538136782667796", "777538136782667796"], // owners in array
     Nodes: [
         {
-            name: 'Local', // Node Name
-            url: 'localhost:2333', //  Node Ip And : Port
-            auth: 'saavanontop', // Node Password
-            secure: false
+            name: 'krn.2d.gay', // Node Name
+            url: 'krn.2d.gay:443', //  Node Ip And : Port
+            auth: 'AWP)JQ$Gv9}dm.u', // Node Password
+            secure: true
         }
     ],
     hooks: {
-        guildAdd: 'https://discord.com/api/webhooks/1059530242944942173/Pz9QFWbXi8-0EcY4Kz5wIhn3c9sPxu0hAkTNlTXWh23geagZq2w7w2Ft-TAc3ECZsVSU',
-        guildRemove: 'https://discord.com/api/webhooks/1059530242944942173/Pz9QFWbXi8-0EcY4Kz5wIhn3c9sPxu0hAkTNlTXWh23geagZq2w7w2Ft-TAc3ECZsVSU',
+        guildAdd: 'https://discord.com/api/webhooks/1031486168036016138/b2xBPrAtHpYJlWnAoF7nfk8p5IznorKmE_an8PsAwihXhHZh64iRpd75qM3jeI5jGa0M',
+        guildRemove: 'https://discord.com/api/webhooks/1031486168036016138/b2xBPrAtHpYJlWnAoF7nfk8p5IznorKmE_an8PsAwihXhHZh64iRpd75qM3jeI5jGa0M',
     },
     links: {
-        invite: 'https://discord.com/oauth2/authorize?client_id=1054076171849052222&scope=bot&permissions=831679622985',
-        bg: 'https://media.discordapp.net/attachments/1053760931617853460/1053760967554642040/Imagine-Hydra-Thumbnail.png',
-        support: 'https://discord.gg/UaMcC4PrYH',
-        vote: 'https://discordbotlist.com/bots/saavan/upvote',
-        banner: 'https://media.discordapp.net/attachments/1053760931617853460/1053884106095734865/hydra-banner.jpeg',
+        invite: 'https://discord.com/oauth2/authorize?client_id=1072189367247966219&scope=bot&permissions=831679622985',
+        bg: ("https://media.discordapp.net/attachments/1011709031687147550/1077159658281766912/maxresdefault_1.jpg"),
+        support: 'https://discord.gg/MSQeXpvJSV',
+        vote: 'https://discordbotlist.com/bots/qod-7134/upvote',
+        banner: 'https://media.discordapp.net/attachments/1011709031687147550/1077197657577107557/Picsart_23-02-20_17-28-14-257.jpg',
         spotify: 'https://cdn.discordapp.com/attachments/1036701023990984724/1038352707720843345/782104564315717642.png',
         soundcloud: 'https://cdn.discordapp.com/attachments/1036701023990984724/1038352707418849310/908400578776956978.png',
     },

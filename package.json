@@ -4,6 +4,7 @@
   "description": "",
   "main": "Src/Shard.js",
   "scripts": {
+    "start": "node Src/Shard.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

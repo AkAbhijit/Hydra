@@ -53,7 +53,7 @@ module.exports = new Object({
             data.moderator = message.author.id;
             data.lastUpdated = Math.round(Date.now() / 1000);
 
-            await data.save();
+            await data.delete();
             return await client.util.msgReply(message, `${client.emoji.tick} 24/7 mode is now **${disable[~~(Math.random() * disable.length)]}**.`, color);
         }
     },
